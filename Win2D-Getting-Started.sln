@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Win2D-Getting-Started", "Win2D-Getting-Started", "{F59CE929-DEF4-4938-9E19-F520F50B3F9C}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SourceByEpisode", "SourceByEpisode", "{E3E39E8E-E651-404E-A598-855AEA62A0FA}"
 EndProject
