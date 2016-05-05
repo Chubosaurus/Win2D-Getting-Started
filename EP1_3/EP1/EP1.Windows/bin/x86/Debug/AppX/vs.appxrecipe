@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DUANDEV-PC</Machine>
+    <WindowsUser>Duan</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>4c30c094-b14b-4d69-9ed8-6666af2955da</PackageIdentityName>
+    <IntermediateOutputPath>E:\CGL\Win2D-Getting-Started\EP1_3\EP1\EP1.Windows\obj\x86\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>D71D176851AB02FDAFF2D37E8B9DD5F5700BD1F3D1383B31D22DA8AFE2D3B2DE</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>4c30c094-b14b-4d69-9ed8-6666af2955da_1.0.0.0_x86__sdnayrm8s6hz4</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>4c30c094-b14b-4d69-9ed8-6666af2955da_sdnayrm8s6hz4!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>4c30c094-b14b-4d69-9ed8-6666af2955da</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Duan</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="E:\CGL\Win2D-Getting-Started\EP1_3\EP1\EP1.Windows\bin\x86\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-05-05T12:11:44.968</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="E:\CGL\Win2D-Getting-Started\EP1_3\EP1\EP1.Windows\bin\x86\Debug\EP1.Windows.exe">
+      <PackagePath>EP1.Windows.exe</PackagePath>
+      <Modified>2016-05-05T12:11:43.555</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\CGL\Win2D-Getting-Started\EP1_3\packages\Win2D.0.0.11\build\win\..\..\bin\Windows\x86\Microsoft.Graphics.Canvas.Numerics.dll">
+      <PackagePath>Microsoft.Graphics.Canvas.Numerics.dll</PackagePath>
+      <Modified>2015-02-15T10:33:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\CGL\Win2D-Getting-Started\EP1_3\packages\Win2D.0.0.11\build\win\..\..\bin\Windows\x86\Microsoft.Graphics.Canvas.dll">
+      <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
+      <Modified>2015-02-15T10:33:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\CGL\Win2D-Getting-Started\EP1_3\packages\Win2D.0.0.11\build\win\..\..\bin\Windows\x86\Microsoft.Graphics.Canvas.winmd">
+      <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
+      <Modified>2015-02-15T10:33:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\CGL\Win2D-Getting-Started\EP1_3\EP1\EP1.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T17:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\CGL\Win2D-Getting-Started\EP1_3\EP1\EP1.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T17:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\CGL\Win2D-Getting-Started\EP1_3\EP1\EP1.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T17:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\CGL\Win2D-Getting-Started\EP1_3\EP1\EP1.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T17:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\CGL\Win2D-Getting-Started\EP1_3\EP1\EP1.Windows\Assets\tm_cannon.png">
+      <PackagePath>Assets\tm_cannon.png</PackagePath>
+      <Modified>2015-02-17T09:25:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\CGL\Win2D-Getting-Started\EP1_3\EP1\EP1.Windows\Assets\tm_clone.png">
+      <PackagePath>Assets\tm_clone.png</PackagePath>
+      <Modified>2015-02-17T09:25:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\CGL\Win2D-Getting-Started\EP1_3\EP1\EP1.Windows\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-02-16T07:50:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\CGL\Win2D-Getting-Started\EP1_3\EP1\EP1.Windows\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2015-02-16T07:50:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\CGL\Win2D-Getting-Started\EP1_3\EP1\EP1.Windows\bin\x86\Debug\EP1.Windows.xr.xml">
+      <PackagePath>EP1.Windows.xr.xml</PackagePath>
+      <Modified>2015-02-15T10:41:21.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\CGL\Win2D-Getting-Started\EP1_3\EP1\EP1.Windows\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-05-05T12:11:43.710</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Debug</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Debug</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Debug</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
