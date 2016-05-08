@@ -35,7 +35,7 @@ Turn your volume up...my voice is low until EP #6... got a new mic :D
 [EP #6 : Input Manager and Game Engine Overview](https://www.youtube.com/watch?v=rNi2zigDIwA)  
 [EP #7 : Capturing Mouse Events](https://www.youtube.com/watch?v=7cgOPd_JZx8)  
 [EP #8 : Optimize Mouse Events And The Generic Button](https://www.youtube.com/watch?v=enxoZUkkXn4)  
-[EP #9 : Scene Switcher and Generic Gaming Scenes](not recorded yet)  
+[EP #9 : Scene Switcher and Generic Gaming Scenes (not recorded yet)](https://www.youtube.com/playlist?list=PLNVD5azsNYNsCp5WYZiZlbg0MXvVAmsd1)  
 
 Convenient Playlist of All Videos: [EP #1 - EP #9](https://www.youtube.com/playlist?list=PLNVD5azsNYNsCp5WYZiZlbg0MXvVAmsd1) more to come (I hope).
 
