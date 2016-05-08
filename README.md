@@ -18,6 +18,7 @@ In the video series, I go over
 * Creating the Game Loop which has a specific Updates Per Second and Frame Per Second.<br>
 * Creating an ***Input Manager*** such that the mouse (or anything you like) can push its events on to it, which the manager pushes its current input down the StoryBoard model.<br>
 * Creating a Stack to model a scene history.<br>
+* Slice and dice a Sprite Sheet into an animation object.<br>
 
 ---
 
@@ -26,6 +27,8 @@ In the video series, I go over
 A [Top Down View of The Simple Game Engine](http://i.imgur.com/bfIDTZ4.png)
 
 Turn your volume up...my voice is low until EP #6... got a new mic :D
+
+#####Season One
 
 [EP #1 : Environment Setup & Drawing Primitives](https://www.youtube.com/watch?v=YtxHU5LWwTE)  
 [EP #2 : Loading and Drawing Images](https://www.youtube.com/watch?v=uglDsbkjCio)  
@@ -37,7 +40,11 @@ Turn your volume up...my voice is low until EP #6... got a new mic :D
 [EP #8 : Optimize Mouse Events And The Generic Button](https://www.youtube.com/watch?v=enxoZUkkXn4)  
 [EP #9 : Scene Switcher and Generic Gaming Scenes (not recorded yet)](https://www.youtube.com/playlist?list=PLNVD5azsNYNsCp5WYZiZlbg0MXvVAmsd1)  
 
-Convenient Playlist of All Videos: [EP #1 - EP #9](https://www.youtube.com/playlist?list=PLNVD5azsNYNsCp5WYZiZlbg0MXvVAmsd1) more to come (I hope).
+#####Season Two
+
+[EP #1 : Generic Sprite Animation (not recorded yet)](https://www.youtube.com/playlist?list=PLNVD5azsNYNsCp5WYZiZlbg0MXvVAmsd1)  
+
+Convenient Playlist of All Videos: [PLAYLIST](https://www.youtube.com/playlist?list=PLNVD5azsNYNsCp5WYZiZlbg0MXvVAmsd1) more to come (I hope).
 
 ---
 
