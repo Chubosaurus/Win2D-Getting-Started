@@ -18,11 +18,13 @@ In the video series, I go over
 * Creating the Game Loop which has a specific Updates Per Second and Frame Per Second.<br>
 * Creating an ***Input Manager*** such that the mouse (or anything you like) can push its events on to it, which the manager pushes its current input down the StoryBoard model.<br>
 * Creating a Stack to model a scene history.<br>
+* Creating a Layered Scene.<br>
 * Slice and dice a Sprite Sheet into an animation object.<br>
+* Parallax Scrolling.<br>
 
 ---
 
-##Videos In The Serie
+##Videos In The Series
 
 A [Top Down View of The Simple Game Engine](http://i.imgur.com/bfIDTZ4.png)
 
@@ -43,6 +45,7 @@ Turn your volume up...my voice is low until EP #6... got a new mic :D
 #####Season Two
 
 [EP #1 : Generic Sprite Animation (not recorded yet)](https://www.youtube.com/playlist?list=PLNVD5azsNYNsCp5WYZiZlbg0MXvVAmsd1)  
+[EP #2 : Layered Scenes and Parallax Scrolling (not recorded yet)](https://www.youtube.com/playlist?list=PLNVD5azsNYNsCp5WYZiZlbg0MXvVAmsd1)
 
 Convenient Playlist of All Videos: [PLAYLIST](https://www.youtube.com/playlist?list=PLNVD5azsNYNsCp5WYZiZlbg0MXvVAmsd1) more to come (I hope).
 
@@ -66,8 +69,9 @@ Win2D Getting Started: Windows Universal Application is licensed under **CC BY**
 
 ####Attribution Information
 
-Some artwork by <a href="http://opengameart.org/users/tatermand">Tatermand</a>   
-Some animations by *Christian da Silva*
+Parallax Scrolling Backgrounds by <a href="https://mobilegamegraphics.com">Mobile Game Graphics</a> and are licensed under their own <a href="https://mobilegamegraphics.com/license-terms/">license</a>.<br>
+Sprite artwork by <a href="http://opengameart.org/users/tatermand">Tatermand</a><br>
+Spite animations by *Christian da Silva*<br>
 
 
 
