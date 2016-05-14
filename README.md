@@ -21,6 +21,7 @@ In the video series, I go over
 * Creating a Layered Scene.<br>
 * Slice and dice a Sprite Sheet into an animation object.<br>
 * Parallax Scrolling.<br>
+* Generic Entity States.<br>
 
 ---
 
@@ -45,7 +46,9 @@ Turn your volume up...my voice is low until EP #6... got a new mic :D
 #####Season Two
 
 [EP #1 : Generic Sprite Animation (not recorded yet)](https://www.youtube.com/playlist?list=PLNVD5azsNYNsCp5WYZiZlbg0MXvVAmsd1)  
-[EP #2 : Layered Scenes and Parallax Scrolling (not recorded yet)](https://www.youtube.com/playlist?list=PLNVD5azsNYNsCp5WYZiZlbg0MXvVAmsd1)
+[EP #2 : Layered Scenes and Parallax Scrolling (not recorded yet)](https://www.youtube.com/playlist?list=PLNVD5azsNYNsCp5WYZiZlbg0MXvVAmsd1)   
+[EP #3 : GenericPlayer and States (not recorded yet)](https://www.youtube.com/playlist?list=PLNVD5azsNYNsCp5WYZiZlbg0MXvVAmsd1)
+
 
 Convenient Playlist of All Videos: [PLAYLIST](https://www.youtube.com/playlist?list=PLNVD5azsNYNsCp5WYZiZlbg0MXvVAmsd1) more to come (I hope).
 
@@ -67,9 +70,10 @@ Win2D Getting Started: Windows Universal Application is licensed under **CC BY**
 
 ---
 
-####Attribution Information
+####Attributions and Credits
 
 Parallax Scrolling Backgrounds by <a href="https://mobilegamegraphics.com">Mobile Game Graphics</a> and are licensed under their own <a href="https://mobilegamegraphics.com/license-terms/">license</a>.<br>
+Rock Entity by <a href="https://mobilegamegraphics.com">Mobile Game Graphics</a> and is licensed under their own <a href="https://mobilegamegraphics.com/license-terms/">license</a>.<br>
 Sprite artwork by <a href="http://opengameart.org/users/tatermand">Tatermand</a><br>
 Spite animations by *Christian da Silva*<br>
 
