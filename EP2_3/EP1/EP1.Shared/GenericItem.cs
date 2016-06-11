@@ -25,6 +25,8 @@ namespace Chubosaurus
             this.Name = name;
             this.DrawBoundingRectangle = false;
             this.ZIndex = 0;                                        // default to the very bottom layer
+            
+            this.IsMirrored = false;
         }
 
         /// <summary>
@@ -99,6 +101,7 @@ namespace Chubosaurus
         public BitmapSize Size { get; set; }
         public Rect BoundingRectangle{ get { return new Rect(Location.X, Location.Y, Size.Width - 1, Size.Height - 1); } }
         public bool DrawBoundingRectangle { get; set; }
+        public bool IsMirrored { get; set; }
 
         public int ZIndex { get; set; }
 

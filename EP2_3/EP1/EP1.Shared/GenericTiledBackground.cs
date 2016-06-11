@@ -37,17 +37,31 @@ namespace Chubosaurus
                 this.CIBrush.Interpolation = CanvasImageInterpolation.Linear;
             }
 
-            this.Velocity = 0;
+            this.VelocityFactor = 1.0f;
+            this.Velocity = 0;            
+            this.DoTranslate = false;
         }
 
         public override void Update(TimeSpan dt, GenericInput input)
         {
             base.Update(dt, input);
 
-            if (this.Velocity != 0)
+            // NOTE(duan): Observer design pattern in future eps.
+            if (input is Message_Translate)
+            {
+                this.DoTranslate = true;
+                this.VelocityFactor = ((Message_Translate)input).VelocityFactor;
+            }
+            else if(input is Message_StopTranslate)
+            {
+                this.DoTranslate = false;
+                this.VelocityFactor = ((Message_StopTranslate)input).VelocityFactor;
+            }
+
+            if (this.Velocity != 0 && this.DoTranslate)
             {
                 // update the xoffset based on the velocity
-                this.XOffset -= (Velocity * ((double)dt.Milliseconds / 1000.0f));
+                this.XOffset -= (Velocity * ((double)dt.Milliseconds / 1000.0f)) * (VelocityFactor);
                 // set the new position
                 this.CIBrush.Transform = this.CIBrush.Transform = Matrix3x2.CreateTranslation(new Vector2((float)this.XOffset, 0));
             }           
@@ -87,6 +101,8 @@ namespace Chubosaurus
             }
         }
 
+        public bool DoTranslate { get; set; }
+        public float VelocityFactor { get; set; }
         public double Velocity { get; set; }
 
         #endregion

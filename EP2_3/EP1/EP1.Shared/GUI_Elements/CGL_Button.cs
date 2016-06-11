@@ -74,6 +74,12 @@ namespace Chubosaurus
             // the bounding rectangle
             Windows.Foundation.Rect r = new Windows.Foundation.Rect(Location.X, Location.Y, Size.Width, Size.Height);
 
+            // draw the background
+            if (BackgroundColor != Colors.Transparent)
+            {
+                cds.FillRectangle(new Windows.Foundation.Rect(r.X + 1, r.Y + 1, r.Width - 2, r.Height - 2), this.BackgroundColor);
+            }
+
             // draw the border
             if (IsHover)
             {

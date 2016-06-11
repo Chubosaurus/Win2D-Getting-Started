@@ -118,7 +118,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EP1.Windows", "EP2_2\EP1\EP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EP1.WindowsPhone", "EP2_2\EP1\EP1.WindowsPhone\EP1.WindowsPhone.csproj", "{14B5D9A8-1BD0-45A6-9876-6B004A46942C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EP2_3 (Generic Player and States)", "EP2_3 (Generic Player and States)", "{E5A70243-2614-444C-818D-A86049B9430A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EP2_3 (GenericPlayer and States)", "EP2_3 (GenericPlayer and States)", "{E5A70243-2614-444C-818D-A86049B9430A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EP1", "EP1", "{5E4154C7-BAF9-4419-AE2A-1ED814D1934B}"
 EndProject
@@ -134,7 +134,7 @@ Global
 		EP1_4\EP1\EP1.Shared\EP1.Shared.projitems*{5950bb1b-5cc1-45ef-a826-8bad715e3c22}*SharedItemsImports = 4
 		EP2_1\EP1\EP1.Shared\EP1.Shared.projitems*{978d0130-2354-481e-8e9e-249e27a25212}*SharedItemsImports = 13
 		EP1_6\EP1\EP1.Shared\EP1.Shared.projitems*{487836c0-7a1c-4b3b-9ceb-a880e25f675d}*SharedItemsImports = 4
-		EP1\EP1.Shared\EP1.Shared.projitems*{247c61cb-3d2c-4313-aae7-a44142ce04d9}*SharedItemsImports = 4
+		EP1\EP1\EP1.Shared\EP1.Shared.projitems*{247c61cb-3d2c-4313-aae7-a44142ce04d9}*SharedItemsImports = 4
 		EP1_2\EP1\EP1.Shared\EP1.Shared.projitems*{16827954-db6f-4617-86c5-0b2f732e3750}*SharedItemsImports = 13
 		EP1_5\EP1\EP1.Shared\EP1.Shared.projitems*{e0615aab-d679-4697-b237-fc5d20fee3c6}*SharedItemsImports = 4
 		EP1_7\EP1\EP1.Shared\EP1.Shared.projitems*{29b336b3-6d32-4769-b58f-8ab8df956be4}*SharedItemsImports = 4
@@ -145,7 +145,7 @@ Global
 		EP1_2\EP1\EP1.Shared\EP1.Shared.projitems*{36704dfe-1058-489e-9ed5-cbd44bfca6ca}*SharedItemsImports = 4
 		EP1_5\EP1\EP1.Shared\EP1.Shared.projitems*{bed16f97-439d-4298-96ec-04503371cd6b}*SharedItemsImports = 13
 		EP1_7\EP1\EP1.Shared\EP1.Shared.projitems*{e11fccb5-c31e-4eb4-bccc-df433c1df3c0}*SharedItemsImports = 13
-		EP1\EP1.Shared\EP1.Shared.projitems*{280d7a35-6078-4d34-8c41-b6655515c23b}*SharedItemsImports = 4
+		EP1\EP1\EP1.Shared\EP1.Shared.projitems*{280d7a35-6078-4d34-8c41-b6655515c23b}*SharedItemsImports = 4
 		EP1_6\EP1\EP1.Shared\EP1.Shared.projitems*{5cbdf1cf-2bc0-48ca-ae70-7fd3eae713f2}*SharedItemsImports = 4
 		EP1_4\EP1\EP1.Shared\EP1.Shared.projitems*{0dc28836-ea89-4a16-8318-e91f6b6599cf}*SharedItemsImports = 13
 		EP1_2\EP1\EP1.Shared\EP1.Shared.projitems*{520c9fa3-1abf-4de4-ab30-59bf8070db64}*SharedItemsImports = 4
@@ -158,7 +158,7 @@ Global
 		EP2_1\EP1\EP1.Shared\EP1.Shared.projitems*{fd2311d8-1857-423a-8eac-cb1be5bf67f6}*SharedItemsImports = 4
 		EP2_3\EP1\EP1.Shared\EP1.Shared.projitems*{9d40c66b-0b77-4b8b-8e68-a3cb1344ef6b}*SharedItemsImports = 4
 		EP1_4\EP1\EP1.Shared\EP1.Shared.projitems*{bb7e7775-cb5a-4307-bb05-373c8766092a}*SharedItemsImports = 4
-		EP1\EP1.Shared\EP1.Shared.projitems*{8f36f1fc-66ff-4f95-96f7-a3bb9c2140e2}*SharedItemsImports = 13
+		EP1\EP1\EP1.Shared\EP1.Shared.projitems*{8f36f1fc-66ff-4f95-96f7-a3bb9c2140e2}*SharedItemsImports = 13
 		EP1_3\EP1\EP1.Shared\EP1.Shared.projitems*{3acbdb3a-7e51-48c0-a83c-24879c2d3baa}*SharedItemsImports = 4
 		EP1_8\EP1\EP1.Shared\EP1.Shared.projitems*{a0ce9ff4-79d8-4eee-9277-ba754daf4bca}*SharedItemsImports = 13
 		EP1_3\EP1\EP1.Shared\EP1.Shared.projitems*{96984fa5-dd6c-4390-8aec-31c47b8e1dd0}*SharedItemsImports = 4

@@ -29,6 +29,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)GUI_Elements\CGL_Button.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)GUI_Elements\CGL_Label.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)InputManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Messages\Message_Translate.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)SceneManager.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Scenes\CityScene.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Scenes\CreditsScene.cs" />

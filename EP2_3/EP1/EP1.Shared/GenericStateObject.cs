@@ -46,6 +46,12 @@ namespace Chubosaurus
         /// <param name="cds">The drawing surface.</param>
         public override void Draw(CanvasDrawingSession cds)
         {
+            // NOTE(duan): WIN10's Win2D has a flip function, since we're doing 8.0+ this a bit slower
+            if (this.IsMirrored)
+            {
+                cds.Transform = Matrix3x2.CreateScale(-1, 1, new Vector2(this.Location.X + 64, this.Location.Y + 64));
+            }
+
             base.Draw(cds);
 
             // draw the animation in the state
@@ -57,6 +63,8 @@ namespace Chubosaurus
                 _animations[this._state].Location = this.Location;                
                 _animations[this._state].Draw(cds);
             }
+
+            cds.Transform = Matrix3x2.Identity;
         }
 
         /// <summary>
@@ -120,7 +128,7 @@ namespace Chubosaurus
             // checks
             if (_animations.ContainsKey(gs))
             {
-                return (_animations[gs].LoopCount == 1);
+                return (_animations[gs].LoopCount >= 1);
             }
 
             return true;

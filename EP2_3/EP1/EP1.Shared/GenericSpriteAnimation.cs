@@ -76,7 +76,7 @@ namespace Chubosaurus
         /// </summary>
         /// <param name="cds">The surface to draw to.</param>
         public override void Draw(CanvasDrawingSession cds)
-        {
+        {           
             // draw the current frame of the animation
             cds.DrawImage(Frames[CurrentFrame], this.X, this.Y);
         }

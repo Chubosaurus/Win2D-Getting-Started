@@ -15,7 +15,7 @@ namespace Chubosaurus
         /// <summary>
         /// GameTimer constructor, sets default values.
         /// </summary>
-        public GameTimer(CanvasControl surface = null, int UPS = 60, int FPS = 30)
+        public GameTimer(CanvasControl surface = null, int UPS = 60, int FPS = 45)
         {
             UpdateTimer = new DispatcherTimer();
             UpdateTimer.Interval = TimeSpan.FromMilliseconds(1000 / UPS);        // 60 UPS

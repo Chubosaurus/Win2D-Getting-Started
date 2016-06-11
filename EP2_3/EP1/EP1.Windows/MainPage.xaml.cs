@@ -68,6 +68,37 @@ namespace EP1
             await ContentPipeline_Image.AddImage("bg_fn_07", @"Assets/Background/ForestNightLayers/layer_07_1920 x 1080.png");
 
             // EP2_3 : load in the rock dude
+
+            // NOTE(duan): no free IDLE state gfx so, we're going to use FRAME_1 of the attack animation instead
+            // NOTE(duan): FLYWEIGHT design pattern in future tutorials.
+            await ContentPipeline_Image.AddImage("RD_IDLE_01", @"Assets/Entity/RockPerson/MSHero_2_Attack_Loop0001.png");
+
+            await ContentPipeline_Image.AddImage("RD_CROUCH_01", @"Assets/Entity/RockPerson/MSHero_2_Crouching0001.png");
+            await ContentPipeline_Image.AddImage("RD_CROUCH_02", @"Assets/Entity/RockPerson/MSHero_2_Crouching0002.png");
+            await ContentPipeline_Image.AddImage("RD_CROUCH_03", @"Assets/Entity/RockPerson/MSHero_2_Crouching0003.png");
+            await ContentPipeline_Image.AddImage("RD_CROUCH_04", @"Assets/Entity/RockPerson/MSHero_2_Crouching0004.png");
+            await ContentPipeline_Image.AddImage("RD_CROUCH_05", @"Assets/Entity/RockPerson/MSHero_2_Crouching0005.png");
+            await ContentPipeline_Image.AddImage("RD_CROUCH_06", @"Assets/Entity/RockPerson/MSHero_2_Crouching0006.png");
+            await ContentPipeline_Image.AddImage("RD_CROUCH_07", @"Assets/Entity/RockPerson/MSHero_2_Crouching0007.png");
+            await ContentPipeline_Image.AddImage("RD_CROUCH_08", @"Assets/Entity/RockPerson/MSHero_2_Crouching0008.png");
+            await ContentPipeline_Image.AddImage("RD_CROUCH_09", @"Assets/Entity/RockPerson/MSHero_2_Crouching0009.png");
+            await ContentPipeline_Image.AddImage("RD_CROUCH_10", @"Assets/Entity/RockPerson/MSHero_2_Crouching0010.png");
+            await ContentPipeline_Image.AddImage("RD_CROUCH_11", @"Assets/Entity/RockPerson/MSHero_2_Crouching0011.png");
+            await ContentPipeline_Image.AddImage("RD_CROUCH_12", @"Assets/Entity/RockPerson/MSHero_2_Crouching0012.png");
+
+            await ContentPipeline_Image.AddImage("RD_ATTACK_01", @"Assets/Entity/RockPerson/MSHero_2_Attack_Loop0001.png");
+            await ContentPipeline_Image.AddImage("RD_ATTACK_02", @"Assets/Entity/RockPerson/MSHero_2_Attack_Loop0002.png");
+            await ContentPipeline_Image.AddImage("RD_ATTACK_03", @"Assets/Entity/RockPerson/MSHero_2_Attack_Loop0003.png");
+            await ContentPipeline_Image.AddImage("RD_ATTACK_04", @"Assets/Entity/RockPerson/MSHero_2_Attack_Loop0004.png");
+            await ContentPipeline_Image.AddImage("RD_ATTACK_05", @"Assets/Entity/RockPerson/MSHero_2_Attack_Loop0005.png");
+            await ContentPipeline_Image.AddImage("RD_ATTACK_06", @"Assets/Entity/RockPerson/MSHero_2_Attack_Loop0006.png");
+            await ContentPipeline_Image.AddImage("RD_ATTACK_07", @"Assets/Entity/RockPerson/MSHero_2_Attack_Loop0007.png");
+            await ContentPipeline_Image.AddImage("RD_ATTACK_08", @"Assets/Entity/RockPerson/MSHero_2_Attack_Loop0008.png");
+            await ContentPipeline_Image.AddImage("RD_ATTACK_09", @"Assets/Entity/RockPerson/MSHero_2_Attack_Loop0009.png");
+            await ContentPipeline_Image.AddImage("RD_ATTACK_10", @"Assets/Entity/RockPerson/MSHero_2_Attack_Loop0010.png");
+            await ContentPipeline_Image.AddImage("RD_ATTACK_11", @"Assets/Entity/RockPerson/MSHero_2_Attack_Loop0011.png");
+            await ContentPipeline_Image.AddImage("RD_ATTACK_12", @"Assets/Entity/RockPerson/MSHero_2_Attack_Loop0012.png");
+
             await ContentPipeline_Image.AddImage("RD_WALK_01", @"Assets/Entity/RockPerson/MSHero_2_Walking0001.png");
             await ContentPipeline_Image.AddImage("RD_WALK_02", @"Assets/Entity/RockPerson/MSHero_2_Walking0002.png");
             await ContentPipeline_Image.AddImage("RD_WALK_03", @"Assets/Entity/RockPerson/MSHero_2_Walking0003.png");
@@ -81,6 +112,19 @@ namespace EP1
             await ContentPipeline_Image.AddImage("RD_WALK_11", @"Assets/Entity/RockPerson/MSHero_2_Walking0011.png");
             await ContentPipeline_Image.AddImage("RD_WALK_12", @"Assets/Entity/RockPerson/MSHero_2_Walking0012.png");
 
+            await ContentPipeline_Image.AddImage("RD_RUN_01", @"Assets/Entity/RockPerson/MSHero_2_Running0001.png");
+            await ContentPipeline_Image.AddImage("RD_RUN_02", @"Assets/Entity/RockPerson/MSHero_2_Running0002.png");
+            await ContentPipeline_Image.AddImage("RD_RUN_03", @"Assets/Entity/RockPerson/MSHero_2_Running0003.png");
+            await ContentPipeline_Image.AddImage("RD_RUN_04", @"Assets/Entity/RockPerson/MSHero_2_Running0004.png");
+            await ContentPipeline_Image.AddImage("RD_RUN_05", @"Assets/Entity/RockPerson/MSHero_2_Running0005.png");
+            await ContentPipeline_Image.AddImage("RD_RUN_06", @"Assets/Entity/RockPerson/MSHero_2_Running0006.png");
+            await ContentPipeline_Image.AddImage("RD_RUN_07", @"Assets/Entity/RockPerson/MSHero_2_Running0007.png");
+            await ContentPipeline_Image.AddImage("RD_RUN_08", @"Assets/Entity/RockPerson/MSHero_2_Running0008.png");
+            await ContentPipeline_Image.AddImage("RD_RUN_09", @"Assets/Entity/RockPerson/MSHero_2_Running0009.png");
+            await ContentPipeline_Image.AddImage("RD_RUN_10", @"Assets/Entity/RockPerson/MSHero_2_Running0010.png");
+            await ContentPipeline_Image.AddImage("RD_RUN_11", @"Assets/Entity/RockPerson/MSHero_2_Running0011.png");
+            await ContentPipeline_Image.AddImage("RD_RUN_12", @"Assets/Entity/RockPerson/MSHero_2_Running0012.png");
+
             await ContentPipeline_Image.AddImage("RD_JUMP_01", @"Assets/Entity/RockPerson/MSHero_2_Jumping0001.png");
             await ContentPipeline_Image.AddImage("RD_JUMP_02", @"Assets/Entity/RockPerson/MSHero_2_Jumping0002.png");
             await ContentPipeline_Image.AddImage("RD_JUMP_03", @"Assets/Entity/RockPerson/MSHero_2_Jumping0003.png");
@@ -93,6 +137,19 @@ namespace EP1
             await ContentPipeline_Image.AddImage("RD_JUMP_10", @"Assets/Entity/RockPerson/MSHero_2_Jumping0010.png");
             await ContentPipeline_Image.AddImage("RD_JUMP_11", @"Assets/Entity/RockPerson/MSHero_2_Jumping0011.png");
             await ContentPipeline_Image.AddImage("RD_JUMP_12", @"Assets/Entity/RockPerson/MSHero_2_Jumping0012.png");
+
+            await ContentPipeline_Image.AddImage("RD_DIE_01", @"Assets/Entity/RockPerson/MSHero_2_Dying0001.png");
+            await ContentPipeline_Image.AddImage("RD_DIE_02", @"Assets/Entity/RockPerson/MSHero_2_Dying0002.png");
+            await ContentPipeline_Image.AddImage("RD_DIE_03", @"Assets/Entity/RockPerson/MSHero_2_Dying0003.png");
+            await ContentPipeline_Image.AddImage("RD_DIE_04", @"Assets/Entity/RockPerson/MSHero_2_Dying0004.png");
+            await ContentPipeline_Image.AddImage("RD_DIE_05", @"Assets/Entity/RockPerson/MSHero_2_Dying0005.png");
+            await ContentPipeline_Image.AddImage("RD_DIE_06", @"Assets/Entity/RockPerson/MSHero_2_Dying0006.png");
+            await ContentPipeline_Image.AddImage("RD_DIE_07", @"Assets/Entity/RockPerson/MSHero_2_Dying0007.png");
+            await ContentPipeline_Image.AddImage("RD_DIE_08", @"Assets/Entity/RockPerson/MSHero_2_Dying0008.png");
+            await ContentPipeline_Image.AddImage("RD_DIE_09", @"Assets/Entity/RockPerson/MSHero_2_Dying0009.png");
+            await ContentPipeline_Image.AddImage("RD_DIE_10", @"Assets/Entity/RockPerson/MSHero_2_Dying0010.png");
+            await ContentPipeline_Image.AddImage("RD_DIE_11", @"Assets/Entity/RockPerson/MSHero_2_Dying0011.png");
+            await ContentPipeline_Image.AddImage("RD_DIE_12", @"Assets/Entity/RockPerson/MSHero_2_Dying0012.png");
 
             // setup the scene (this should really be done in another function)
             GenericScene gs = new GenericScene("test");
